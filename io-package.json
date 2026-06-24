@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "linux-control",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "news": {
+      "1.1.9": {
+        "en": "Remove upstream Sentry telemetry plugin (fork privacy); fix systemd service name parsing (upstream PR #57)",
+        "de": "Upstream-Sentry-Telemetrie-Plugin entfernt (Fork-Datenschutz); Parsing der systemd-Servicenamen korrigiert (Upstream-PR #57)",
+        "ru": "Удалён плагин телеметрии Sentry из upstream (приватность форка); исправлен разбор имён сервисов systemd (upstream PR #57)",
+        "pt": "Removido o plugin de telemetria Sentry do upstream (privacidade do fork); corrigido o parsing dos nomes de serviços systemd (PR #57 do upstream)",
+        "nl": "Upstream Sentry-telemetrieplugin verwijderd (fork-privacy); parsing van systemd-servicenamen gecorrigeerd (upstream PR #57)",
+        "fr": "Suppression du plugin de télémétrie Sentry de l'upstream (confidentialité du fork) ; correction de l'analyse des noms de services systemd (PR #57 upstream)",
+        "it": "Rimosso il plugin di telemetria Sentry dell'upstream (privacy del fork); corretto il parsing dei nomi dei servizi systemd (PR #57 upstream)",
+        "es": "Eliminado el complemento de telemetría Sentry del upstream (privacidad del fork); corregido el análisis de nombres de servicios systemd (PR #57 upstream)",
+        "pl": "Usunięto wtyczkę telemetrii Sentry z upstream (prywatność forka); poprawiono parsowanie nazw usług systemd (upstream PR #57)",
+        "zh-cn": "移除上游 Sentry 遥测插件（fork 隐私）；修复 systemd 服务名解析（上游 PR #57）"
+      },
       "1.1.8": {
         "en": "Modernized for js-controller 7: adapter-core 3.x, js-controller >=6.0.11, removed deprecated common fields (title/main/materialize), node: import prefix",
         "de": "Modernisiert für js-controller 7: adapter-core 3.x, js-controller >=6.0.11, veraltete common-Felder entfernt (title/main/materialize), node:-Import-Prefix",
@@ -164,12 +176,7 @@
       {
         "js-controller": ">=6.0.11"
       }
-    ],
-    "plugins": {
-      "sentry": {
-        "dsn": "https://b78d46cef31e48cbb69ac7b00c79b5a3@sentry.iobroker.net/76"
-      }
-    }
+    ]
   },
   "native": {
     "hosts": [],
