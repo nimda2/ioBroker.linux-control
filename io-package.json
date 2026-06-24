@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "linux-control",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "news": {
+      "1.1.7": {
+        "en": "Harden command.host states migration (avoid invalid object warning under js-controller 7)",
+        "de": "command.host states-Migration abgesichert (verhindert Warnung 'invalid object' unter js-controller 7)",
+        "ru": "Усилена миграция состояний command.host (исключает предупреждение об ошибочном объекте в js-controller 7)",
+        "pt": "Migração de estados command.host reforçada (evita aviso de objeto inválido no js-controller 7)",
+        "nl": "command.host states-migratie verstevigd (voorkomt waarschuwing voor ongeldig object onder js-controller 7)",
+        "fr": "Migration des états command.host renforcée (évite l'avertissement d'objet invalide sous js-controller 7)",
+        "it": "Migrazione degli stati command.host irrobustita (evita l'avviso di oggetto non valido con js-controller 7)",
+        "es": "Migración de estados command.host reforzada (evita la advertencia de objeto no válido en js-controller 7)",
+        "pl": "Wzmocniona migracja stanów command.host (zapobiega ostrzeżeniu o nieprawidłowym obiekcie w js-controller 7)",
+        "zh-cn": "强化 command.host states 迁移（避免在 js-controller 7 下出现无效对象警告）"
+      },
       "1.1.5": {
         "en": "Dependencies updated",
         "de": "Abhängigkeiten aktualisiert",

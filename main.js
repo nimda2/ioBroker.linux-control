@@ -990,7 +990,7 @@ class LinuxControl extends utils.Adapter {
 		if (hostObj && hostObj.common) {
 			let hostStates = {};
 			// @ts-ignore
-			for (const host of this.config.hosts) {
+			for (const host of this.config.hosts || []) {
 				if (host) {
 					// @ts-ignore
 					hostStates[host.name] = host.name;
