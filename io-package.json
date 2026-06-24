@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "linux-control",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "news": {
+      "1.1.8": {
+        "en": "Modernized for js-controller 7: adapter-core 3.x, js-controller >=6.0.11, removed deprecated common fields (title/main/materialize), node: import prefix",
+        "de": "Modernisiert für js-controller 7: adapter-core 3.x, js-controller >=6.0.11, veraltete common-Felder entfernt (title/main/materialize), node:-Import-Prefix",
+        "ru": "Модернизация для js-controller 7: adapter-core 3.x, js-controller >=6.0.11, удалены устаревшие поля common (title/main/materialize), префикс импорта node:",
+        "pt": "Modernizado para js-controller 7: adapter-core 3.x, js-controller >=6.0.11, campos common obsoletos removidos (title/main/materialize), prefixo de import node:",
+        "nl": "Gemoderniseerd voor js-controller 7: adapter-core 3.x, js-controller >=6.0.11, verouderde common-velden verwijderd (title/main/materialize), node:-importprefix",
+        "fr": "Modernisé pour js-controller 7 : adapter-core 3.x, js-controller >=6.0.11, champs common obsolètes supprimés (title/main/materialize), préfixe d'import node:",
+        "it": "Modernizzato per js-controller 7: adapter-core 3.x, js-controller >=6.0.11, rimossi campi common obsoleti (title/main/materialize), prefisso import node:",
+        "es": "Modernizado para js-controller 7: adapter-core 3.x, js-controller >=6.0.11, eliminados campos common obsoletos (title/main/materialize), prefijo de importación node:",
+        "pl": "Zmodernizowano pod js-controller 7: adapter-core 3.x, js-controller >=6.0.11, usunięto przestarzałe pola common (title/main/materialize), prefiks importu node:",
+        "zh-cn": "针对 js-controller 7 现代化：adapter-core 3.x、js-controller >=6.0.11、移除过时的 common 字段（title/main/materialize）、node: 导入前缀"
+      },
       "1.1.7": {
         "en": "Harden command.host states migration (avoid invalid object warning under js-controller 7)",
         "de": "command.host states-Migration abgesichert (verhindert Warnung 'invalid object' unter js-controller 7)",
@@ -100,7 +112,6 @@
         "zh-cn": "颠簸到稳定"
       }
     },
-    "title": "Linux Control",
     "titleLang": {
       "en": "Linux Control",
       "de": "Linux Control",
@@ -136,7 +147,6 @@
     ],
     "license": "MIT",
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "linux-control.png",
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/Scrounger/ioBroker.linux-control/master/admin/linux-control.png",
@@ -147,10 +157,12 @@
     "compact": true,
     "connectionType": "local",
     "dataSource": "poll",
-    "materialize": true,
+    "adminUI": {
+      "config": "materialize"
+    },
     "dependencies": [
       {
-        "js-controller": ">=1.4.2"
+        "js-controller": ">=6.0.11"
       }
     ],
     "plugins": {

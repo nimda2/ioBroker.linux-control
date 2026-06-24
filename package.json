@@ -1,6 +1,6 @@
 {
   "name": "iobroker.linux-control",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Controlling Linux devices and get information about your system",
   "author": {
     "name": "Scrounger",
@@ -19,7 +19,7 @@
     "url": "https://github.com/Scrounger/ioBroker.linux-control"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.6.0",
+    "@iobroker/adapter-core": "^3.4.1",
     "node-ssh": "^12.0.4",
     "csvtojson": "^2.0.10",
     "ping": "^0.4.2"
@@ -29,6 +29,7 @@
     "@alcalzone/release-script-plugin-iobroker": "^3.5.9",
     "@alcalzone/release-script-plugin-license": "^3.5.9",
     "@iobroker/adapter-dev": "^1.0.0",
+    "@iobroker/testing": "^5.2.2",
     "axios": "^0.27.2",
     "chai": "^4.3.6",
     "eslint": "^8.14.0",
